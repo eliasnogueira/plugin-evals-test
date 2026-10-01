@@ -6,7 +6,7 @@ Minimal Claude Code plugin to reproduce an issue with `claude plugin eval` where
 
 The plugin contains a "Quote Identifier" skill that reads a quote from a file, identifies the author and source, and writes an `information.md` report. The eval suite provides fixture files (`quote.txt`) via `context.add_dirs: ["test/"]` in each case's `case.yaml`, but the files never appear in the sandbox — causing every eval case to fail.
 
-See #98690 for the full bug report with error logs, traces, and reproduction steps.
+See [[BUG]claude plugin eval: context.add_dirs in case.yaml does not copy fixture files into the sandbox working directory](https://github.com/anthropics/claude-code/issues/98690) for the full bug report with error logs, traces, and reproduction steps.
 
 ## Project structure
 
