@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "plugin-evals-test",
+  "version": "0.1.0",
+  "description": "Plugin evals test plugin",
+  "author": {
+    "name": "Elias Nogueira",
+    "email": "elias.nogueira@booking.com"
+  },
+  "skills": [
+    "./skills/"
+  ]
+}
